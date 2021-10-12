@@ -7,8 +7,6 @@ import com.ultradev.client.APIFeignClient;
 import com.ultradev.feign.client.DefaultApi;
 import com.ultradev.feign.model.GetAccountsResponse;
 
-import io.swagger.annotations.Authorization;
-
 @Component
 public class ServiceInvoker {
 	
